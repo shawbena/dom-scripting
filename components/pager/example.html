@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pager test</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- 20170519-分页-start -->
+    <div class="product-page">
+        <div class="product-page-info">共211条</div>
+        <div class="pager" id="all_prd_counsel">
+        </div>
+    </div>
+    <!-- 20170519-分页-end -->
+    <script src="jquery-1.4.4.js"></script>
+    <script src="index.js"></script>
+    <script>
+        var a = {
+            pageNumber: 1,
+            totalPage: 100
+        };
+        $("#all_prd_counsel").pager({
+            pageNumber: a.pageNumber,
+            pageCount: a.totalPage,
+            pageSize: 3,
+            text: {
+                first: "|&lt;",
+                pre: "&lt",
+                next: "&gt;",
+                last: "&gt;|"
+            },
+            item: ["first", "pre", "qpage", "next", "last", "quickPager"],
+            callBack: function () {
+                console.log('got callback');
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+1. 对一个函数类型调用 `toString()' 会怎样？ 如 `(function(){console.log('hello, world')}).toString()`

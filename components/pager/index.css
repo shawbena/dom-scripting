@@ -1,0 +1,207 @@
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+ol, ul {
+    list-style: none;
+}
+.product-page {
+    font-size: 14px;
+    color: #a4a4a4;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 0 40px;
+    padding-top: 12px;
+    border-top: 1px solid #ebebeb
+}
+
+.product-page .product-page-info {
+    float: left;
+    margin-left: 19px
+}
+
+.product-page .pager {
+    float: right;
+    margin-right: 50px;
+    overflow: hidden
+}
+
+.product-page .pager img,
+.product-page .pager input,
+.product-page .pager span,
+.product-page .pager select {
+    vertical-align: middle
+}
+
+.product-page .pager .qpages {
+    float: left;
+    margin: 0 20px
+}
+
+.product-page .pager ul {
+    font-size: 10px
+}
+
+.product-page .pager ul li {
+    float: left;
+    font-size: 12px;
+    padding: 0 8px;
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px
+}
+
+.product-page .pager ul li.recordCount {
+    border: 0 none;
+    line-height: 30px
+}
+
+.product-page .pager ul li.link {
+    margin: 0;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 8px;
+    text-align: center;
+    position: relative;
+    color: #a4a4a4
+}
+
+.product-page .pager ul li.prword {
+    padding: 0 20px
+}
+
+.product-page .pager ul li.page-number:hover,
+.product-page .pager ul li.pgCurrent {
+    color: #ca141d
+}
+
+.product-page .pager ul li.pgCurrent {
+    color: #ca151e
+}
+
+.product-page .pager ul li.page-number {
+    height: 30px
+}
+
+.product-page .pager ul li.text {
+    color: #a4a4a4;
+    margin: 0;
+    padding: 0 8px
+}
+
+.product-page .pager ul li.quickPager {
+    display: none;
+    clear: none;
+    float: right;
+    color: #444;
+    padding-right: 1px
+}
+
+.product-page .pager ul li.pgNext {
+    height: 30px;
+    padding: 0;
+    background-color: none;
+    border: 0;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url("icon52.png") no-repeat
+}
+
+.product-page .pager ul li.first,
+.product-page .pager ul li.last {
+    width: 14px
+}
+
+.product-page .pager ul li.pre,
+.product-page .pager ul li.next {
+    width: 10px
+}
+
+.product-page .pager ul li.first {
+    margin-right: 6px
+}
+
+.product-page .pager ul li.last {
+    margin-left: 6px
+}
+
+.product-page .pager ul li.first {
+    background-position: 0 0
+}
+
+.product-page .pager ul li.pre {
+    background-position: -14px 0
+}
+
+.product-page .pager ul li.next {
+    background-position: -24px 0
+}
+
+.product-page .pager ul li.last {
+    background-position: -38px 0
+}
+
+.product-page .pager ul li.first:hover {
+    background-position: 0 -30px;
+    background-color: none;
+    border: 0
+}
+
+.product-page .pager ul li.pre:hover {
+    background-position: -14px -30px;
+    background-color: none;
+    border: 0
+}
+
+.product-page .pager ul li.next:hover {
+    background-position: -24px -30px;
+    background-color: none;
+    border: 0
+}
+
+.product-page .pager ul li.last:hover {
+    background-position: -38px -30px;
+    background-color: none;
+    border: 0
+}
+
+.product-page .pager ul li.first-empty {
+    background-position: 0 -60px
+}
+
+.product-page .pager ul li.pre-empty {
+    background-position: -14px -60px
+}
+
+.product-page .pager ul li.next-empty {
+    background-position: -24px -60px
+}
+
+.product-page .pager ul li.last-empty {
+    background-position: -38px -60px
+}
+
+.product-page .pager ul li.first-empty:hover,
+.product-page .pager ul li.pre-empty:hover,
+.product-page .pager ul li.next-empty:hover,
+.product-page .pager ul li.last-empty:hover {
+    border: 0;
+    cursor: default
+}
+
+.product-page .pager ul li.first-empty:hover {
+    background-position: 0 -60px
+}
+
+.product-page .pager ul li.pre-empty:hover {
+    background-position: -14px -60px
+}
+
+.product-page .pager ul li.next-empty:hover {
+    background-position: -24px -60px
+}
+
+.product-page .pager ul li.last-empty:hover {
+    background-position: -38px -60px
+}
